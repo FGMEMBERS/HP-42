@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="hp42-jsbsim-cnf.xml"> -->
+<PropertyList include="hp42-yasim-cnf.xml">
+
+  <sim>
+    <description>Handley Page H.P.42</description>
+    <author>BARANGER Emmanuel</author>
+  </sim>
+
+</PropertyList>
+

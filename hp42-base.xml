@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+ 
+    <author>BARANGER Emmanuel (3D)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+   
+    <fuel-fraction>0.8</fuel-fraction>
+  
+    <startup>
+      <splash-texture>Aircraft/HP-42/hp42-splash.png</splash-texture>
+    </startup>
+
+    <model>
+      <path>Aircraft/HP-42/Models/hp42.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <sound>
+      <path>Aircraft/HP-42/Sounds/hp42-sound.xml</path>
+    </sound>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int" n="0">0</int>
+        <int type="int" n="1">0</int>
+        <int type="int" n="2">0</int>
+        <int type="int" n="3">0</int>
+        <int type="int" n="4">0</int>
+        <int type="int" n="5">0</int>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Handley Page H.P. 42</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close door</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/hp42-menu.xml"/>
+
+  </sim>
+
+  <input>
+    <keyboard include="Nasal/hp42-keyboard.xml"/>
+  </input>
+ 
+  <nasal>
+    <hp42>
+      <file>Aircraft/HP-42/Nasal/doors.nas</file>
+      <file>Aircraft/HP-42/Nasal/liveries.nas</file>
+    </hp42>
+  </nasal>
+
+</PropertyList>
+

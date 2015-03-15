@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+************************************************************************
+Handley Page H.P. 42
+March 2009 BARANGER Emmanuel
+************************************************************************
+-->
+
+<PropertyList include="hp42-base.xml">
+
+  <sim>
+
+    <description>Handley Page H.P.42 (YASim)</description>
+    <flight-model>yasim</flight-model>
+    <aero>hp42-yasim</aero>
+
+  </sim>
+    
+</PropertyList>
